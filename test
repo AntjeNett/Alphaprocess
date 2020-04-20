@@ -1,0 +1,4 @@
+    it "should validate Rezensionen" do
+        expect(page).to have_css("html body#gsr.srp.tbo.vasq span g-lightbox div.ynlwjd.oLLmo.u98ib div.AU64fe span div.VFlF2c.review-dialog div.Zd3Ymd.review-dialog-body div.lcorif.fp-w div.fp-w.review-dialog-top div.review-score-container div span.Aq14fc", text: "5,0")
+        sleep 2
+    end 

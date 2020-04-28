@@ -7,7 +7,7 @@ describe 'velian Bewertungs-Suche', :js=> true do
         sleep 2
         find(:xpath, "/html/body/div/div[3]/form/div[2]/div[1]/div[1]/div/div[2]/input").set("velian gmbh")
         sleep 2
-        find(:xpath, "/html/body/div/div[3]/form/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[1]").click
+        find(:xpath, "/html/body/div/div[3]/form/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[1]").click #hi
         sleep 2 
         find(:xpath, "/html/body/div[6]/div[3]/div[8]/div[1]/div[3]/div/div[1]/div/div[1]/div/div[1]/div[2]/div[2]/div[2]/div/div/span[2]/span/a/span", visible: true).click
         sleep 2
